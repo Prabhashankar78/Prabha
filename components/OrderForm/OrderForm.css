@@ -1,0 +1,51 @@
+.order-form-section {
+  padding: 80px 8%;
+}
+
+.order-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.order-form input,
+.order-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: rgba(255,255,255,0.05);
+  border: 2px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.order-form input:focus,
+.order-form textarea:focus {
+  border-color: #00e5ff;
+}
+
+.order-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.order-btn {
+  width: 100%;
+  padding: 16px;
+  background: #00e5ff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background: #00c5d9;
+}

@@ -1,0 +1,54 @@
+.filter-sidebar {
+  width: 250px;
+  background: rgba(255,255,255,0.03);
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-header h3 {
+  font-size: 20px;
+}
+
+.filter-header button {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-section {
+  margin-bottom: 25px;
+}
+
+.filter-section h4 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #aaa;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.filter-option input {
+  cursor: pointer;
+}
+
+.filter-option span {
+  font-size: 14px;
+}

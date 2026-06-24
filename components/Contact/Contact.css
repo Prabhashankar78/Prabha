@@ -1,0 +1,13 @@
+.contact-section {
+  padding: 80px 8%;
+  background: rgba(255,255,255,0.02);
+}
+
+.contact-text {
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 32px;
+  font-size: 18px;
+  color: #ccc;
+  text-align: justify;
+}
